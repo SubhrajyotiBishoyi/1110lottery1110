@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		447CCC6B215B740A00555183 /* JackpotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447CCC6A215B740A00555183 /* JackpotCollectionViewCell.swift */; };
+		447CCC73215CE17600555183 /* MegaMIllionDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447CCC72215CE17600555183 /* MegaMIllionDataModel.swift */; };
+		447CCC77215E1CCE00555183 /* PresentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447CCC76215E1CCE00555183 /* PresentCollectionViewCell.swift */; };
+		447CCC79215E1D7F00555183 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447CCC78215E1D7F00555183 /* PresentViewController.swift */; };
+		447CCC7B215E514500555183 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447CCC7A215E514500555183 /* NotificationViewController.swift */; };
+		447CCC7D215E66BF00555183 /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447CCC7C215E66BF00555183 /* TicketViewController.swift */; };
+		44B6BE0C215A76A800B8CFF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B6BE0B215A76A800B8CFF9 /* AppDelegate.swift */; };
+		44B6BE0E215A76A800B8CFF9 /* JackpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B6BE0D215A76A800B8CFF9 /* JackpotViewController.swift */; };
+		44B6BE11215A76A800B8CFF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B6BE0F215A76A800B8CFF9 /* Main.storyboard */; };
+		44B6BE13215A76AB00B8CFF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B6BE12215A76AB00B8CFF9 /* Assets.xcassets */; };
+		44B6BE16215A76AB00B8CFF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B6BE14215A76AB00B8CFF9 /* LaunchScreen.storyboard */; };
+		44B6D3CB215EC2F300F40EF8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B6D3CA215EC2F300F40EF8 /* CameraViewController.swift */; };
+		44E2BCD3215A7E9000506727 /* PowerBallDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E2BCD2215A7E9000506727 /* PowerBallDataModel.swift */; };
+		77C11F0CFF32BB96E041111B /* Pods_LotteryApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB2B3A5D7F94D3150ED1FA76 /* Pods_LotteryApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		447CCC6A215B740A00555183 /* JackpotCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JackpotCollectionViewCell.swift; sourceTree = "<group>"; };
+		447CCC72215CE17600555183 /* MegaMIllionDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MegaMIllionDataModel.swift; sourceTree = "<group>"; };
+		447CCC76215E1CCE00555183 /* PresentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PresentCollectionViewCell.swift; path = LotteryApp/Controller/PresentCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		447CCC78215E1D7F00555183 /* PresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
+		447CCC7A215E514500555183 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		447CCC7C215E66BF00555183 /* TicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketViewController.swift; sourceTree = "<group>"; };
+		44B6BE08215A76A800B8CFF9 /* LotteryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B6BE0B215A76A800B8CFF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44B6BE0D215A76A800B8CFF9 /* JackpotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JackpotViewController.swift; sourceTree = "<group>"; };
+		44B6BE10215A76A800B8CFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44B6BE12215A76AB00B8CFF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44B6BE15215A76AB00B8CFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44B6BE17215A76AB00B8CFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44B6D3CA215EC2F300F40EF8 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		44E2BCD2215A7E9000506727 /* PowerBallDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerBallDataModel.swift; sourceTree = "<group>"; };
+		63FE8B962C23ABF11D322BF5 /* Pods-LotteryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotteryApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LotteryApp/Pods-LotteryApp.debug.xcconfig"; sourceTree = "<group>"; };
+		757F802E7136FE9AC02156B4 /* Pods-LotteryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotteryApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LotteryApp/Pods-LotteryApp.release.xcconfig"; sourceTree = "<group>"; };
+		AB2B3A5D7F94D3150ED1FA76 /* Pods_LotteryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LotteryApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44B6BE05215A76A800B8CFF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C11F0CFF32BB96E041111B /* Pods_LotteryApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44B6BDFF215A76A800B8CFF9 = {
+			isa = PBXGroup;
+			children = (
+				44B6BE0A215A76A800B8CFF9 /* LotteryApp */,
+				44B6BE09215A76A800B8CFF9 /* Products */,
+				9575CAF240C5E10EA92CE0D8 /* Pods */,
+				E835947C8672DDD0CEEE8727 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44B6BE09215A76A800B8CFF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44B6BE08215A76A800B8CFF9 /* LotteryApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44B6BE0A215A76A800B8CFF9 /* LotteryApp */ = {
+			isa = PBXGroup;
+			children = (
+				44E2BCD4215B6AE000506727 /* Model */,
+				44E2BCD5215B6AE700506727 /* View */,
+				44E2BCD6215B6AEF00506727 /* Controller */,
+				44B6BE17215A76AB00B8CFF9 /* Info.plist */,
+			);
+			path = LotteryApp;
+			sourceTree = "<group>";
+		};
+		44E2BCD4215B6AE000506727 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				447CCC72215CE17600555183 /* MegaMIllionDataModel.swift */,
+				44E2BCD2215A7E9000506727 /* PowerBallDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44E2BCD5215B6AE700506727 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44B6BE12215A76AB00B8CFF9 /* Assets.xcassets */,
+				44B6BE14215A76AB00B8CFF9 /* LaunchScreen.storyboard */,
+				44B6BE0F215A76A800B8CFF9 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		44E2BCD6215B6AEF00506727 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44B6BE0B215A76A800B8CFF9 /* AppDelegate.swift */,
+				44B6D3CA215EC2F300F40EF8 /* CameraViewController.swift */,
+				447CCC7C215E66BF00555183 /* TicketViewController.swift */,
+				44B6BE0D215A76A800B8CFF9 /* JackpotViewController.swift */,
+				447CCC6A215B740A00555183 /* JackpotCollectionViewCell.swift */,
+				447CCC78215E1D7F00555183 /* PresentViewController.swift */,
+				447CCC7A215E514500555183 /* NotificationViewController.swift */,
+				447CCC76215E1CCE00555183 /* PresentCollectionViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9575CAF240C5E10EA92CE0D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63FE8B962C23ABF11D322BF5 /* Pods-LotteryApp.debug.xcconfig */,
+				757F802E7136FE9AC02156B4 /* Pods-LotteryApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E835947C8672DDD0CEEE8727 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB2B3A5D7F94D3150ED1FA76 /* Pods_LotteryApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44B6BE07215A76A800B8CFF9 /* LotteryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44B6BE1A215A76AB00B8CFF9 /* Build configuration list for PBXNativeTarget "LotteryApp" */;
+			buildPhases = (
+				5E448652F526C049FCB30CAC /* [CP] Check Pods Manifest.lock */,
+				44B6BE04215A76A800B8CFF9 /* Sources */,
+				44B6BE05215A76A800B8CFF9 /* Frameworks */,
+				44B6BE06215A76A800B8CFF9 /* Resources */,
+				8CCB3533E5867C7E5C2FE55F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LotteryApp;
+			productName = LotteryApp;
+			productReference = 44B6BE08215A76A800B8CFF9 /* LotteryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44B6BE00215A76A800B8CFF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Subhrajyoti Bishoyi";
+				TargetAttributes = {
+					44B6BE07215A76A800B8CFF9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 44B6BE03215A76A800B8CFF9 /* Build configuration list for PBXProject "LotteryApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44B6BDFF215A76A800B8CFF9;
+			productRefGroup = 44B6BE09215A76A800B8CFF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44B6BE07215A76A800B8CFF9 /* LotteryApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44B6BE06215A76A800B8CFF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B6BE16215A76AB00B8CFF9 /* LaunchScreen.storyboard in Resources */,
+				44B6BE13215A76AB00B8CFF9 /* Assets.xcassets in Resources */,
+				44B6BE11215A76A800B8CFF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E448652F526C049FCB30CAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LotteryApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CCB3533E5867C7E5C2FE55F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LotteryApp/Pods-LotteryApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Progress/Progress.framework",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Progress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LotteryApp/Pods-LotteryApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44B6BE04215A76A800B8CFF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447CCC73215CE17600555183 /* MegaMIllionDataModel.swift in Sources */,
+				44B6D3CB215EC2F300F40EF8 /* CameraViewController.swift in Sources */,
+				44B6BE0E215A76A800B8CFF9 /* JackpotViewController.swift in Sources */,
+				447CCC7B215E514500555183 /* NotificationViewController.swift in Sources */,
+				447CCC6B215B740A00555183 /* JackpotCollectionViewCell.swift in Sources */,
+				44E2BCD3215A7E9000506727 /* PowerBallDataModel.swift in Sources */,
+				44B6BE0C215A76A800B8CFF9 /* AppDelegate.swift in Sources */,
+				447CCC79215E1D7F00555183 /* PresentViewController.swift in Sources */,
+				447CCC77215E1CCE00555183 /* PresentCollectionViewCell.swift in Sources */,
+				447CCC7D215E66BF00555183 /* TicketViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44B6BE0F215A76A800B8CFF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44B6BE10215A76A800B8CFF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44B6BE14215A76AB00B8CFF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44B6BE15215A76AB00B8CFF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44B6BE18215A76AB00B8CFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44B6BE19215A76AB00B8CFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44B6BE1B215A76AB00B8CFF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63FE8B962C23ABF11D322BF5 /* Pods-LotteryApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6VYG79467;
+				INFOPLIST_FILE = LotteryApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Subhrajyoti.LotteryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44B6BE1C215A76AB00B8CFF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 757F802E7136FE9AC02156B4 /* Pods-LotteryApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6VYG79467;
+				INFOPLIST_FILE = LotteryApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Subhrajyoti.LotteryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44B6BE03215A76A800B8CFF9 /* Build configuration list for PBXProject "LotteryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B6BE18215A76AB00B8CFF9 /* Debug */,
+				44B6BE19215A76AB00B8CFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44B6BE1A215A76AB00B8CFF9 /* Build configuration list for PBXNativeTarget "LotteryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B6BE1B215A76AB00B8CFF9 /* Debug */,
+				44B6BE1C215A76AB00B8CFF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44B6BE00215A76A800B8CFF9 /* Project object */;
+}
